@@ -19,7 +19,6 @@ h1 {
     height: 235px;
     background-color: #383838;
     align-self: center;
-    justify-content: center;
     text-align: center;
     line-height: 235px;;
 }
@@ -29,4 +28,6 @@ footer {
     height: 300px;
     background-color: #383838;
     align-self: flex-end;
+    position: absolute;
+    bottom: 0px;
 }
