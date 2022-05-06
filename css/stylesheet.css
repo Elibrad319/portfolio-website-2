@@ -14,13 +14,35 @@ body {
 }
 
 /* boxes for splash page start here */
-h1 {
+#about-box {
     width: 235px;
     height: 235px;
     background-color: #383838;
     align-self: center;
     text-align: center;
-    line-height: 235px;;
+    line-height: 235px;
+    margin: 85px;
+    margin-top: 75px;
+}
+
+#contact-box {
+    width: 235px;
+    height: 235px;
+    background-color: #383838;
+    align-self: center;
+    text-align: center;
+    line-height: 235px;
+    margin: 85px;
+}
+
+#projects-box {
+    width: 235px;
+    height: 235px;
+    background-color: #383838;
+    align-self: flex-end;
+    text-align: center;
+    line-height: 235px;
+    margin: 85px;
 }
 
 footer {
