@@ -88,15 +88,13 @@ footer {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20%;
-    align-content: space-between;
     justify-content: center;
     flex-direction: column;
-    flex-wrap: nowrap;
 }
 
 #logo-footer {
     margin: 5px;
-    grid-row-start: 1;
+    grid-row: 2;
 }
 
 h2 {
@@ -112,13 +110,19 @@ h2 {
 
 #projects-footer {
     grid-column: 3;
+    grid-row: 1;
 }
 
 #projects-list {
-    grid-column: 2;
-    grid-row: 2;
+    width: 10px;
+    height: 10px;
     display: block;
-    text-align: center;
+    /* text-align: center; */
+}
+
+li {
+    width: 1px;
+    height: 1px;
 }
 
 #contact-footer {
