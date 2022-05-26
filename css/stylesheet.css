@@ -21,7 +21,7 @@ body {
 /* boxes for splash page start here */
 
 #logo-home {
-        
+   grid-column: 2;     
 }
 
 #about-box {
@@ -121,9 +121,12 @@ h2 {
 }
 
 li {
-    width: 1px;
-    height: 1px;
+    width: 10px;
+    height: 10px;
+    grid-column: 3;
+    grid-row: 2;
 }
+
 
 #contact-footer {
     grid-column: 4;
