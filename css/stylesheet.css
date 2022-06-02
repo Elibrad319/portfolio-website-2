@@ -87,85 +87,86 @@ footer {
     bottom: 0px;
     display: grid;
     grid-template-columns: 22% 22% 22% 22%;
-    grid-template-rows: 10% 10% 10%;
-    justify-content: center;
-    flex-direction: column;
+    grid-template-rows: 8% 8% 8%;
 }
 
 #logo-footer {
     margin: 5px;
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 1;
 }
 
 #elijahb {
     color: #50b848;
     grid-column: 1;
-    grid-row: 10;
+    grid-row: 5;
     text-align: left;
-    margin-top: 10px;
-    width: 5px;
+    margin-left: 20px;
+    width: 10px;
     height: 10px;
-    line-height: 10px;
+    margin-top: -10px;
 }
 
 h2 {
     flex-direction: column;
     color: #ffff;
-    font-size: 30pt;
-    grid-column: 2/6;
+    font-size: 25pt;
 }
 
 #about-footer {
-    grid-row: 2;
+    grid-row: 4;
+    grid-column: 2;
+    margin-top: 50px;
 }
 
 #projects-footer {
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 3;
 }
-
+    
 #projects-list {
-    width: 10px;
-    height: 10px;
-    display: block;
+    text-align: left;
+    grid-column: 3;
+    grid-row: 4;
     /* text-align: center; */
 }
 
 li {
     color: white;
-    width: 110px;
-    text-align: center;
-    height: 100px;
-    grid-column: 3;
-    grid-row: 3;
+    list-style: none;
+    text-align: left;
 }
 
 #gd-footer {
-    /* margin-top: 20px; */
-    width: 6px;
-    height: 5px;
+    margin: 0px;
+    width: 101px;
+    height: 10px;
+    /* padding: 20px; */
 }
 
 #photos-footer {
-    /* margin-top: 65px; */
-    width: 6px;
-    height: 5px;
+    margin: 0px;
+    width: 101px;
+    height: 10px;
+    /* padding: 20px; */
 }
 
 #artwork-footer {
-    /* margin-top: 95px; */
-    width: 6px;
-    height: 5px;
+    margin: 0px;
+    width: 101px;
+    height: 10px;
+    /* padding: 20px; */
 }
 
 #contact-footer {
     grid-column: 4;
+    grid-row: 3;
 }
 
 #other-footer {
-    grid-row: 2;
+    grid-row: 4;
     grid-column: 5;
+    margin-top: 50px;
 }
 
 
