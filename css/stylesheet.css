@@ -12,6 +12,11 @@
     src: url("css/fonts/Athelas-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Copperplate";
+    src: url("css/fonts/CopperplateCC-Bold.ttf");
+}
+
 body {
     margin: 0px;
     width: 100%;
@@ -130,10 +135,12 @@ footer {
     grid-column: 1;
     grid-row: 5;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 12px;
     width: 10px;
     height: 10px;
     margin-top: 0px;
+    font-family: Copperplate;
+    font-size: 16pt;
 }
 
 h2 {
