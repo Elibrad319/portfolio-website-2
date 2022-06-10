@@ -85,6 +85,16 @@ nav {
     grid-column: 7;
     text-decoration: none;
 }
+/* END OF NAV CONTENT */
+
+/* BEGINNING OF ABOUT PAGE */
+#about-page {
+    font-family: Ebrima-bold;
+    background-color: #383838;
+    width: 700px;
+    height: 144px;
+    border: 6pt solid #50b848;
+}
 
 /* BEGINNING OF SPLASH PAGE CONTENT */
 #splash {
@@ -189,9 +199,10 @@ nav {
 
 /* BEGINNING OF FOOTER CONTENT */
 footer {
-    width: 1024px;
+    width: 100%;
     height: 300px;
     background-color: #383838;
+    border-top: 6pt solid #50b848;
     bottom: 0px;
     position: absolute;
     display: grid;
